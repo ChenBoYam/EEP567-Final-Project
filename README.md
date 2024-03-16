@@ -20,7 +20,7 @@ The diversity in license plate characters poses a significant challenge in accur
 
 Background and Pipeline
 -----------------------
-![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/8584fb17cb8998c17ed8ba91493f114ab947f0c6/pipeline.png?)
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/8584fb17cb8998c17ed8ba91493f114ab947f0c6/pipeline.png?raw=true)
 We utilize YOLOv8 for license plate detection due to its speed and accuracy. YOLOv8 employs a single deep neural network to identify objects and their bounding boxes. LPRNet, on the other hand, offers an efficient solution for license plate recognition by eliminating the need for pre-segmentation.
 
 Dataset and Preprocessing
@@ -40,9 +40,12 @@ LPRNet is integrated into the workflow for license plate number recognition. Des
 
 Experimental Results and Analysis
 ---------------------------------
-![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/confusion.png)
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/confusion.png?raw=true)
+
 After training YOLOv8, we achieved high precision and recall scores. Challenges such as losses being zero and file path issues were addressed through problem-solving. 
-![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/result.png)
+
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/result.png?raw=true)
+
 Analysis reveals the importance of robust datasets for training and potential areas for improvement in recognizing Chinese characters accurately.
 
 Future Work
