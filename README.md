@@ -1,4 +1,4 @@
-# Automatic Car Plate Recognition
+Automatic Car Plate Recognition
 ===============================
 
 Project Overview
@@ -55,10 +55,3 @@ Roles and Responsibilities
 *   YOLOv8: Jui-Wei Chang
 *   LPRNet: Yuan Chen
 
-GitHub Repository
------------------
-
-[Final-Project Repository](https://github.com/ChenBoYam/Final-Project)
-
-References
-----------
