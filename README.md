@@ -33,15 +33,17 @@ YOLOv8
 
 YOLOv8 is trained using the CCPD2020 dataset with hyperparameters optimized for performance. Challenges encountered during training include CUDA version issues and file path discrepancies, which were resolved through troubleshooting.
 
-Experimental Results and Analysis
----------------------------------
-
-After training YOLOv8, we achieved high precision and recall scores. Challenges such as losses being zero and file path issues were addressed through problem-solving. Analysis reveals the importance of robust datasets for training and potential areas for improvement in recognizing Chinese characters accurately.
-
 LPRNet
 ------
 
 LPRNet is integrated into the workflow for license plate number recognition. Despite challenges in recognizing Chinese characters accurately, LPRNet achieves high accuracy scores with rapid processing speeds.
+
+Experimental Results and Analysis
+---------------------------------
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/confusion.png)
+After training YOLOv8, we achieved high precision and recall scores. Challenges such as losses being zero and file path issues were addressed through problem-solving. 
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/d4074602f536ce6060f76020b93a1bc054a92e9f/result.png)
+Analysis reveals the importance of robust datasets for training and potential areas for improvement in recognizing Chinese characters accurately.
 
 Future Work
 -----------
