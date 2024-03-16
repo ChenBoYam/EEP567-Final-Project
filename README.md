@@ -20,7 +20,7 @@ The diversity in license plate characters poses a significant challenge in accur
 
 Background and Pipeline
 -----------------------
-
+![alt text](https://github.com/ChenBoYam/EEP567-Final-Project/blob/8584fb17cb8998c17ed8ba91493f114ab947f0c6/pipeline.png?)
 We utilize YOLOv8 for license plate detection due to its speed and accuracy. YOLOv8 employs a single deep neural network to identify objects and their bounding boxes. LPRNet, on the other hand, offers an efficient solution for license plate recognition by eliminating the need for pre-segmentation.
 
 Dataset and Preprocessing
